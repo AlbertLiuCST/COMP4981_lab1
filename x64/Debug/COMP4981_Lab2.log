@@ -1,0 +1,6 @@
+﻿  threads.cpp
+threads.obj : error LNK2019: unresolved external symbol __imp_pthread_create referenced in function main
+threads.obj : error LNK2019: unresolved external symbol __imp_pthread_join referenced in function main
+threads.obj : error LNK2019: unresolved external symbol __imp_pthread_mutex_lock referenced in function "void * __cdecl consumer(void *)" (?consumer@@YAPEAXPEAX@Z)
+threads.obj : error LNK2019: unresolved external symbol __imp_pthread_mutex_unlock referenced in function "void * __cdecl consumer(void *)" (?consumer@@YAPEAXPEAX@Z)
+C:\Users\alber\source\repos\COMP4981_Lab2\x64\Debug\COMP4981_Lab2.exe : fatal error LNK1120: 4 unresolved externals
